@@ -11,31 +11,50 @@
 }
 img{
     width:15cm;
-    height: 7.5cm;
+    height:auto;
 }
 .first
 {
     display: flex;
     flex-direction:column;
     border: 2px solid brown;
+    background-color: #1F2937;
+}
+.logo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 20px;
+    
+
+    
 }
 .header
 {
     display: flex;
     justify-content: space-between;
     border: 2px solid blue;
+    
 }
 .links
 {
     display: flex;
+    color: #e5e7eb;
+    margin: 20px;
+    gap: 25px;
+    font-size: 18px;
 }
 .rest
 {
     display: flex;
     border: 2px solid pink;
-    
+    font-size: 18px;
     justify-content: space-around;
     margin: 25px;
+    color: #e5e7eb;
+    gap: 8px;
+    letter-spacing: 1.5px;
+    
 }
 .aot
 {
@@ -47,6 +66,10 @@ img{
 {
     border:2px solid green;
     font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 15px;
+    width: fit-content;
 }
 .right,.left
 {
@@ -62,6 +85,9 @@ img{
 button{
     width: fit-content;
     font-size: larger;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px;
 }
 .Watchnow
 {
