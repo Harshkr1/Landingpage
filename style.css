@@ -1,3 +1,8 @@
+*
+{
+    list-style: none;
+}
+
 .container
 {
     border:  2px solid  black;
@@ -7,4 +12,59 @@
 img{
     width:15cm;
     height: 7.5cm;
+}
+.first
+{
+    display: flex;
+    flex-direction:column;
+    border: 2px solid brown;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+.links
+{
+    display: flex;
+}
+.rest
+{
+    display: flex;
+    border: 2px solid pink;
+    
+    justify-content: space-around;
+    margin: 25px;
+}
+.aot
+{
+    border: 2px solid orange;
+    margin: 25px;
+    font-size: 18px;
+}
+.heading
+{
+    border:2px solid green;
+    font-size: 48px;
+}
+.right,.left
+{
+    margin: 25px;
+    border: 2px solid purple;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    width: fit-content;
+    font-size: larger;
+}
+.Watchnow
+{
+    margin: 25px;
+    
 }
