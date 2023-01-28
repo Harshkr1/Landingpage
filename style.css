@@ -101,14 +101,44 @@ button{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    border: 2px solid red;
+    gap: 35px;
     
 }
 .random
 {
     text-align: center;
+    border: 2px solid greenyellow;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+    padding: 25px;
 }
 .list
 {
     display: flex;
     gap: 150px;
+    border: 2px solid black;
+    justify-content:space-between;
+    width: fit-content;
+    padding: 30px;
+}
+.poster
+{
+    width:7cm;
+    height: 10cm;
+}
+.information
+{
+    border: 2px solid purple ;
+}
+.card
+{
+    border: 2px solid green;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
