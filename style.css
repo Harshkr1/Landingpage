@@ -102,7 +102,10 @@ button{
     display: flex;
     flex-direction: column;
     border: 2px solid red;
-    gap: 35px;
+    gap: 10px;
+    margin: 25px;
+    align-items: center;
+    overflow: none;
     
 }
 .random
@@ -112,7 +115,7 @@ button{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin: 50px;
+    margin: 20px;
     padding: 25px;
 }
 .list
@@ -121,17 +124,21 @@ button{
     gap: 150px;
     border: 2px solid black;
     justify-content:space-between;
-    width: fit-content;
+    width: 45cm;
     padding: 30px;
 }
 .poster
 {
     width:7cm;
     height: 10cm;
+    margin: 15px;
+    
 }
 .information
 {
     border: 2px solid purple ;
+    margin: 20px;
+    padding: 10px;
 }
 .card
 {
@@ -141,4 +148,5 @@ button{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    letter-spacing: 1px;
 }
