@@ -95,3 +95,20 @@ button{
     margin: 25px;
     
 }
+.second
+{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.random
+{
+    text-align: center;
+}
+.list
+{
+    display: flex;
+    gap: 150px;
+}
