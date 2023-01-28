@@ -97,7 +97,7 @@ button{
 }
 .second
 {
-    border: 2px solid black;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
