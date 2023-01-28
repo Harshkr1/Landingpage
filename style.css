@@ -181,3 +181,21 @@ button{
     color: #1F2937;
     padding: 5px;
 }
+.fourth
+{
+  border:2px solid black;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block
+{
+    border: 2px solid blue;
+    margin: 50px;
+    height: 30vh;
+    width: 70%;
+    
+    
+}
