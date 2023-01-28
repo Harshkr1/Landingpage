@@ -5,7 +5,7 @@
 
 .container
 {
-    border:  2px solid  black;
+    
     height: 100vh;
     
 }
@@ -17,7 +17,7 @@ img{
 {
     display: flex;
     flex-direction:column;
-    border: 2px solid brown;
+    
     background-color: #1F2937;
 }
 .logo
@@ -33,7 +33,7 @@ img{
 {
     display: flex;
     justify-content: space-between;
-    border: 2px solid blue;
+    
     
 }
 .links
@@ -47,7 +47,7 @@ img{
 .rest
 {
     display: flex;
-    border: 2px solid pink;
+    
     font-size: 18px;
     justify-content: space-around;
     margin: 25px;
@@ -58,13 +58,13 @@ img{
 }
 .aot
 {
-    border: 2px solid orange;
+    
     margin: 25px;
     font-size: 18px;
 }
 .heading
 {
-    border:2px solid green;
+    
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -74,7 +74,7 @@ img{
 .right,.left
 {
     margin: 25px;
-    border: 2px solid purple;
+    
 }
 
 .left{
@@ -88,6 +88,7 @@ button{
     background-color: #3882f6;
     color: #F9FAF8;
     padding: 10px;
+    border-radius: 20px;
 }
 .Watchnow
 {
