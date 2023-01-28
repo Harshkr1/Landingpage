@@ -183,39 +183,47 @@ button{
 }
 .fourth
 {
-  border:2px solid black;
+  
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 15px;
 }
 .block
 {
-    border: 2px solid blue;
+    
     margin: 50px;
     height: 30vh;
     width: 70%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
+    background-color: #3882f6;
+    border-radius: 30px;
         
     
 }
 .bold
 {
-    border: 2px solid green;
+    
     width: fit-content;
     margin: 50px;
-    
+    padding: 17px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 .premium
 {
-    border: 2px solid orchid;
+   
+    padding: 17px;
+    color: #e5e7eb;
 }
 .signup
 {
-    border: 2px solid peru;
+    border: 2px solid white;
+    border-radius: 15px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -223,16 +231,18 @@ button{
     width: 4cm;
     height: fit-content;
     padding: 15px;
+    font-size: 18px;
+    margin: 300px;
+    color: #f9faf8;
 }
 .main{
-    border: 2px solid rebeccapurple;
+   
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
     justify-content:flex-start;
     padding: 15px;
-    font-size: 24px;
-    align-items: flex-start;
-    
+    font-size: 24px;   
+    margin: 0
     
 }
