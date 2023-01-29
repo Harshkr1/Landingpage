@@ -30,11 +30,12 @@ img {
     color: #F9FAF8;
     margin: 20px;
     padding: 10px;
-
-
-
 }
-
+.anchor
+{
+    text-decoration: none;
+    color: #F9FAF8;
+}
 .header {
     display: flex;
     justify-content: space-between;
